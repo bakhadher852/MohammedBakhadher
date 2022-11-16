@@ -1,0 +1,198 @@
+/* Start Golbal Rules */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  margin: 0 0;
+  background-color: black;
+}
+
+/* End Golbal Rules */
+/* -------------------------------- */
+
+/* Start my FrameWork */
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+.text-left {
+  text-align: left;
+}
+.text-justify {
+  text-align: justify;
+}
+.container {
+  width: 80%;
+}
+
+.visible-xs,
+.visible-md,
+.visible-lg,
+.visible-sm {
+  display: none;
+}
+/* مايحتاج نكتبه لانه by defult is block or visible */
+/* .hidden-xs,
+.hidden-md,
+.hidden-lg,  
+.hidden-sm {
+  display: block;
+} */
+
+.float-right {
+  float: right;
+}
+.float-left {
+  float: left;
+}
+.clearfix {
+  clear: both !important;
+  /*فيه كلاس احترافي يشتغل مع جميع المتصفحات clear hack */
+}
+.h1 {
+  font-size: 50px;
+}
+.margin-zero {
+  margin: 0;
+}
+.responsive-paragraph {
+  line-height: 1.8;
+  text-align: justify;
+}
+.responsive-image {
+  width: 100%;
+}
+.list-unstyling {
+  /* to make out the design from ul and li */
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* End my FrameWork */
+/* ------------------------------ */
+/* Start header */
+
+h1 {
+  font-family: serif;
+  font-weight: bolder;
+}
+
+.header {
+  background-color: #2d3540;
+  position: relative;
+  height: 100vh;
+}
+.myImg {
+  width: 50%;
+  height: 100vh;
+  position: absolute;
+  right: 0;
+  opacity: 0.4;
+  z-index: 1;
+}
+.navBar {
+  color: white;
+  width: 80%;
+  display: flex;
+}
+.logo {
+  text-align: center;
+  width: 30%;
+}
+.barLi {
+  width: 70%;
+  z-index: 2;
+  padding-top: 10px;
+}
+.barLi a {
+  color: white;
+  text-decoration: none;
+}
+.barLi a:hover {
+  color: rgba(255, 255, 255, 0.57);
+  font-size: 17px;
+}
+.barLi > ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
+}
+
+.hello-div {
+  width: 80%;
+  position: relative;
+  top: 70px;
+  left: 100px;
+  z-index: 3;
+}
+.hello-div .first {
+  font-size: 60px;
+}
+.hello-div .second {
+  font-size: 50px;
+  word-spacing: 0px;
+}
+.hello-div .third {
+  width: 400px;
+  text-align: justify;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.561);
+}
+.email-me {
+  background-color: #3479d9;
+  display: inline-block;
+  padding: 10px 20px;
+}
+.email-me i {
+  color: white;
+  padding: 0 6px;
+}
+.email-me a {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+.download-cv {
+  display: inline-block;
+
+  margin: 0 15px;
+}
+.download-cv i {
+  color: white;
+  padding: 0;
+}
+.download-cv a {
+  color: white;
+  font-weight: bold;
+  padding: 0 0 0 5px;
+}
+/* End header */
+/* --------------------------------- */
+/* Start Icons Section After Header */
+
+.icon img {
+  width: 100px;
+  height: 100px;
+  opacity: 60%;
+}
+/* End Icons Section After Header */
+/* ------------------------------------ */
+/* Start About */
+.about {
+  height: 100vh;
+}
+/* End About */
+/* ------------------------------------ */
+/* --------------------------------------------------------------------------------------------- */
+@media (0px <= width <= 768px) {
+  /* Mobile and medium Screen Rules*/
+}
+
+@media (min-width: 769px) /* big Screen Rules*/ {
+}
+/* --------------------------------------------------------------------------------------------- */
