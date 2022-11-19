@@ -14,152 +14,133 @@ body {
 
 /* ------------------------------ */
 /* Start header */
-.container {
-  width: 80%;
-}
-h1 {
-  font-family: serif;
-  font-weight: bolder;
-}
 
-.header {
-  background-color: #2d3540;
-  position: relative;
-  height: 100vh;
-}
-.navBar {
-  color: white;
-  width: 80%;
-  display: flex;
-}
-.logo {
-  text-align: center;
-  width: 30%;
-}
-.barLi {
-  width: 70%;
-  z-index: 2;
-  padding-top: 10px;
-}
-.barLi a {
-  color: white;
-  text-decoration: none;
-}
-.barLi a:hover {
-  color: rgba(255, 255, 255, 0.57);
-  font-size: 17px;
-}
-.barLi > ul {
-  list-style-type: none;
-  display: flex;
-  justify-content: space-around;
-  font-weight: bold;
-}
-
-.email-me {
-  background-color: #3479d9;
-  display: inline-block;
-  padding: 10px 20px;
-}
-.email-me i {
-  color: white;
-  padding: 0 6px;
-}
-.email-me a {
-  text-align: center;
-  text-decoration: none;
-  color: white;
-}
-.download-cv {
-  display: inline-block;
-
-  margin: 0 15px;
-}
-.download-cv i {
-  color: white;
-  padding: 0;
-}
-.download-cv a {
-  color: white;
-  font-weight: bold;
-  padding: 0 0 0 5px;
-}
 /* End header */
 /* --------------------------------- */
-/* Start Icons Section After Header */
 
-.icon img {
-  width: 100px;
-  height: 100px;
-  padding: 15px;
-}
-/* End Icons Section After Header */
 /* ------------------------------------ */
-/* Start About */
-.about {
-  height: 100vh;
-}
-/* End About */
+
 /* ------------------------------------ */
 /* --------------------------------------------------------------------------------------------- */
 @media (0px <= width <= 768px) {
   /* Mobile and medium Screen Rules*/
 
-  .container {
+  .header {
+    background-color: #2d3540;
+
+    height: 100vh;
+  }
+  .mycontainer {
     width: 100%;
+    margin: 0;
+  }
+  #navBar {
   }
   .myImg {
-    position: absolute;
     width: 100%;
-    height: 100vh;
-    z-index: 0;
+    height: 100%;
     opacity: 0.4;
     padding: 0;
+    position: absolute;
   }
 
   .hello-div {
-    z-index: 2;
+    z-index: 1;
     display: inline-block;
+    position: absolute;
   }
   .hello-div .first {
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
-
     margin: 0;
   }
   .hello-div .second {
-    font-size: 30px;
+    font-size: 20px;
     word-spacing: 0px;
+    margin-left: 30px;
   }
   .hello-div .third {
-    width: 400px;
     text-align: justify;
     line-height: 30px;
     color: white;
-    margin-top: 150px;
-    display: inline-block;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 200px;
+    text-align: justify;
   }
   .mail {
-    background-color: blue;
-    display: inline-block;
+    margin: 30p auto;
+    align-items: flex-end;
+    margin-left: 30px;
+    margin-top: 50px;
   }
-}
 
+  .email-me {
+    background-color: #3479d9;
+    display: inline-block;
+    padding: 10px 20px;
+  }
+  .email-me i {
+    color: white;
+    padding: 0 6px;
+  }
+  .email-me a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+  }
+  .download-cv {
+    display: inline-block;
+
+    margin: 0 15px;
+  }
+  .download-cv i {
+    color: white;
+    padding: 0;
+  }
+  .download-cv a {
+    color: white;
+    font-weight: bold;
+    padding: 0 0 0 5px;
+  }
+  /* Start Icons Section After Header */
+
+  .icon img {
+    width: 70px;
+    height: 70px;
+    padding: 15px;
+  }
+  .imgcontainer {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+  /* End Icons Section After Header */
+}
+/* ============================================================================ */
 @media (min-width: 769px) /* big Screen Rules*/ {
+  .header {
+    background-color: #2d3540;
+    position: relative;
+    height: 100vh;
+  }
+  .mycontainer {
+    width: 80%;
+    margin: 0 auto;
+  }
   .myImg {
     width: 50%;
     height: 100vh;
     position: absolute;
     right: 0;
     opacity: 0.4;
-    z-index: 1;
   }
   .hello-div {
     width: 80%;
     position: relative;
     top: 70px;
     left: 100px;
-    z-index: 3;
+    z-index: 1;
   }
   .hello-div .first {
     font-size: 60px;
@@ -174,5 +155,66 @@ h1 {
     line-height: 30px;
     color: rgba(255, 255, 255, 0.561);
   }
+
+  h1 {
+    font-family: serif;
+    font-weight: bolder;
+  }
+
+  .navBar {
+    color: white;
+    width: 80%;
+    display: flex;
+  }
+  .logo {
+    text-align: center;
+    width: 30%;
+  }
+
+  .email-me {
+    background-color: #3479d9;
+    display: inline-block;
+    padding: 10px 20px;
+  }
+  .email-me i {
+    color: white;
+    padding: 0 6px;
+  }
+  .email-me a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+  }
+  .download-cv {
+    display: inline-block;
+
+    margin: 0 15px;
+  }
+  .download-cv i {
+    color: white;
+    padding: 0;
+  }
+  .download-cv a {
+    color: white;
+    font-weight: bold;
+    padding: 0 0 0 5px;
+  }
+  /* Start Icons Section After Header */
+
+  .icon img {
+    width: 100px;
+    height: 100px;
+    padding: 15px;
+  }
+  .imgcontainer {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  /* End Icons Section After Header */
+  /* Start About */
+  .about {
+    height: 100%;
+  }
+  /* End About */
 }
 /* --------------------------------------------------------------------------------------------- */
