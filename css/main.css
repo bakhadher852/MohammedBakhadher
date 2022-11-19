@@ -239,6 +239,14 @@ body {
   .about {
     height: 100%;
   }
+  .aboutimg {
+    width: 100%;
+  }
+  .aboutpara {
+    line-height: 150%;
+    text-align: justify;
+    font-size: 20px;
+  }
   /* End About */
   /* Start Contact me Section */
   .contactme ul {
