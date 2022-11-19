@@ -114,6 +114,31 @@ body {
     width: 100%;
     justify-content: space-evenly;
   }
+  /* Start Contact me Section */
+  .contactme ul {
+    list-style: none;
+    font-size: 25px;
+    background-image: url('/img/contactmeimg.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .contactme i {
+    margin-top: 20px;
+    text-align: start;
+  }
+  .contactme a {
+    text-decoration: none;
+    color: black;
+    margin-left: 5px;
+  }
+  .contactme a:hover {
+    color: blue;
+  }
+  .contactme img {
+    display: none;
+  }
+
+  /* End Contact me Section */
   /* End Icons Section After Header */
 }
 /* ============================================================================ */
@@ -215,5 +240,29 @@ body {
     height: 100%;
   }
   /* End About */
+  /* Start Contact me Section */
+  .contactme ul {
+    list-style: none;
+    font-size: 25px;
+    margin-left: 30px;
+  }
+  .contactme i {
+    margin-top: 20px;
+    text-align: start;
+  }
+  .contactme a {
+    text-decoration: none;
+    color: black;
+    margin-left: 5px;
+  }
+  .contactme a:hover {
+    color: blue;
+  }
+  .contactme img {
+    width: 100%;
+    align-items: center;
+  }
+  /* End Contact me Section */
+  /* ----------------------------- */
 }
 /* --------------------------------------------------------------------------------------------- */
