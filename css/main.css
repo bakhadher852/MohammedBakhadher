@@ -12,70 +12,11 @@ body {
 /* End Golbal Rules */
 /* -------------------------------- */
 
-/* Start my FrameWork */
-.text-center {
-  text-align: center;
-}
-.text-right {
-  text-align: right;
-}
-.text-left {
-  text-align: left;
-}
-.text-justify {
-  text-align: justify;
-}
+/* ------------------------------ */
+/* Start header */
 .container {
   width: 80%;
 }
-
-.visible-xs,
-.visible-md,
-.visible-lg,
-.visible-sm {
-  display: none;
-}
-/* مايحتاج نكتبه لانه by defult is block or visible */
-/* .hidden-xs,
-.hidden-md,
-.hidden-lg,  
-.hidden-sm {
-  display: block;
-} */
-
-.float-right {
-  float: right;
-}
-.float-left {
-  float: left;
-}
-.clearfix {
-  clear: both !important;
-  /*فيه كلاس احترافي يشتغل مع جميع المتصفحات clear hack */
-}
-.h1 {
-  font-size: 50px;
-}
-.margin-zero {
-  margin: 0;
-}
-.responsive-paragraph {
-  line-height: 1.8;
-  text-align: justify;
-}
-.responsive-image {
-  width: 100%;
-}
-.list-unstyling {
-  /* to make out the design from ul and li */
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-/* End my FrameWork */
-/* ------------------------------ */
-/* Start header */
-
 h1 {
   font-family: serif;
   font-weight: bolder;
@@ -85,14 +26,6 @@ h1 {
   background-color: #2d3540;
   position: relative;
   height: 100vh;
-}
-.myImg {
-  width: 50%;
-  height: 100vh;
-  position: absolute;
-  right: 0;
-  opacity: 0.4;
-  z-index: 1;
 }
 .navBar {
   color: white;
@@ -123,26 +56,6 @@ h1 {
   font-weight: bold;
 }
 
-.hello-div {
-  width: 80%;
-  position: relative;
-  top: 70px;
-  left: 100px;
-  z-index: 3;
-}
-.hello-div .first {
-  font-size: 60px;
-}
-.hello-div .second {
-  font-size: 50px;
-  word-spacing: 0px;
-}
-.hello-div .third {
-  width: 400px;
-  text-align: justify;
-  line-height: 30px;
-  color: rgba(255, 255, 255, 0.561);
-}
 .email-me {
   background-color: #3479d9;
   display: inline-block;
@@ -178,7 +91,7 @@ h1 {
 .icon img {
   width: 100px;
   height: 100px;
-  opacity: 60%;
+  padding: 15px;
 }
 /* End Icons Section After Header */
 /* ------------------------------------ */
@@ -191,8 +104,75 @@ h1 {
 /* --------------------------------------------------------------------------------------------- */
 @media (0px <= width <= 768px) {
   /* Mobile and medium Screen Rules*/
+
+  .container {
+    width: 100%;
+  }
+  .myImg {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: 0;
+    opacity: 0.4;
+    padding: 0;
+  }
+
+  .hello-div {
+    z-index: 2;
+    display: inline-block;
+  }
+  .hello-div .first {
+    font-size: 40px;
+    text-align: center;
+
+    margin: 0;
+  }
+  .hello-div .second {
+    font-size: 30px;
+    word-spacing: 0px;
+  }
+  .hello-div .third {
+    width: 400px;
+    text-align: justify;
+    line-height: 30px;
+    color: white;
+    margin-top: 150px;
+    display: inline-block;
+  }
+  .mail {
+    background-color: blue;
+    display: inline-block;
+  }
 }
 
 @media (min-width: 769px) /* big Screen Rules*/ {
+  .myImg {
+    width: 50%;
+    height: 100vh;
+    position: absolute;
+    right: 0;
+    opacity: 0.4;
+    z-index: 1;
+  }
+  .hello-div {
+    width: 80%;
+    position: relative;
+    top: 70px;
+    left: 100px;
+    z-index: 3;
+  }
+  .hello-div .first {
+    font-size: 60px;
+  }
+  .hello-div .second {
+    font-size: 50px;
+    word-spacing: 0px;
+  }
+  .hello-div .third {
+    width: 400px;
+    text-align: justify;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.561);
+  }
 }
 /* --------------------------------------------------------------------------------------------- */
