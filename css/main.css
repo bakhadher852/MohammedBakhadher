@@ -235,6 +235,7 @@ body {
     justify-content: space-evenly;
   }
   /* End Icons Section After Header */
+  /* ------------------------------------ */
   /* Start About */
   .about {
     height: 100%;
@@ -248,6 +249,54 @@ body {
     font-size: 20px;
   }
   /* End About */
+  /* ------------------------------------ */
+
+  /* Start Skills Section  */
+  .myskills {
+    background-color: rgb(108, 212, 221);
+    height: 100vh;
+  }
+  .myskills i {
+    margin: 23px 0px 0px 30px;
+  }
+  .one a {
+    color: rgb(76, 76, 255);
+  }
+  .two a {
+    margin-left: 85.5px;
+    color: rgb(255, 255, 167);
+  }
+  .three a {
+    margin-left: 171px;
+    color: rgb(13, 255, 0);
+  }
+  .four a {
+    margin-left: 256.5px;
+    color: rgb(0, 255, 251);
+  }
+  .five a {
+    margin-left: 342px;
+    color: rgb(0, 110, 255);
+  }
+  .six a {
+    margin-left: 427.5px;
+    color: rgb(255, 0, 153);
+  }
+  .seven a {
+    margin-left: 513px;
+    color: rgb(255, 0, 43);
+  }
+  .eight a {
+    margin-left: 598.5px;
+    color: rgb(58, 143, 64);
+  }
+  .nine a {
+    margin-left: 684px;
+    color: yellow;
+  }
+  /* End Skills Section  */
+  /* ------------------------------------ */
+
   /* Start Contact me Section */
   .contactme ul {
     list-style: none;
@@ -277,22 +326,13 @@ body {
     background-color: #c0cadb;
   }
   .goingup {
-    width: 54px;
-    height: 54px;
-    font-size: 20px;
-    background-color: black;
-    border-radius: 50%;
-    margin: 0 auto;
+    font-size: 50px;
+    color: black;
+    margin-left: 50%;
     position: relative;
     top: -26px;
   }
-  .goingup i {
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    color: white;
-    padding-top: 17px;
-  }
+
   /* ----------------------------- */
   /* End Footer section */
 }
