@@ -18,11 +18,9 @@
     <link rel="stylesheet" href="css/normalize.css" />
     <style>
       /* ----------------------------------------------------------------VVVVVVVVVVVVVVVVVVVVVVVVVVVVV--------------------- */
-      /* @media (0px <= width <= 768px) */
+
       /* FOR GITHUB USE  */
       @media only screen and(max-width: 768px) {
-        /* Mobile and medium Screen Rules*/
-
         .header {
           background-color: #2d3540;
 
@@ -40,7 +38,9 @@
           padding: 0;
           position: absolute;
           margin-left: 25vw;
-          margin-top: 40vh;
+          margin-top: 30vh;
+          border-radius: 10px;
+          border: 1.5px solid white;
         }
         .myImg {
           display: none !important;
@@ -59,23 +59,21 @@
         .hello-div .second {
           text-align: center;
           font-size: 20px;
-          word-spacing: 0px;
-          margin-left: 30px;
         }
         .hello-div .third {
           text-align: justify;
           line-height: 30px;
           color: white;
-          margin-left: 30px;
-          margin-right: 30px;
+          margin-left: 10%;
+          margin-right: 10%;
           margin-top: 200px;
           text-align: justify;
         }
         .mail {
-          margin: 30p auto;
+          margin: 10% auto;
           align-items: flex-end;
-          margin-left: 30px;
-          margin-top: 50px;
+          margin-left: 10%;
+          margin-top: 10%;
         }
 
         .email-me {
@@ -109,22 +107,81 @@
         /* Start Icons Section After Header */
 
         .icon img {
-          width: 70px;
-          height: 70px;
-          padding: 15px;
+          width: 20%;
+          height: auto;
+          padding: 4%;
         }
         .imgcontainer {
           display: flex;
           width: 100%;
           justify-content: space-evenly;
         }
+        /* Start About me Section */
+        .aboutimg {
+          max-width: 70vw;
+          height: auto;
+          margin-left: 15%;
+
+          margin-bottom: 2vh;
+          border-radius: 10px;
+          border: 1.5px solid white;
+        }
+        .aboutpara {
+          text-align: justify;
+          margin: 10%;
+        }
+        /* Start Skills Section */
+        .myskills {
+          background-color: rgb(108, 212, 221);
+          height: 100vh;
+        }
+        .myskills i {
+          margin: 23px 0px 0px 30px;
+        }
+        .one a {
+          color: rgb(76, 76, 255);
+        }
+        .two a {
+          margin-left: 4.4%;
+          color: rgb(255, 255, 167);
+        }
+        .three a {
+          margin-left: 8.8%;
+          color: rgb(13, 255, 0);
+        }
+        .four a {
+          margin-left: 13.2%;
+          color: rgb(0, 255, 251);
+        }
+        .five a {
+          margin-left: 17.6%;
+          color: rgb(0, 110, 255);
+        }
+        .six a {
+          margin-left: 22%;
+          color: rgb(255, 0, 153);
+        }
+        .seven a {
+          margin-left: 26.4%;
+          color: rgb(255, 0, 43);
+        }
+        .eight a {
+          margin-left: 30.8%;
+          color: rgb(58, 143, 64);
+        }
+        .nine a {
+          margin-left: 30.8%;
+          color: yellow;
+        }
+        /* End Skills Section  */
         /* Start Contact me Section */
         .contactme ul {
           list-style: none;
           font-size: 25px;
           background-image: url('/img/contactmeimg.svg');
-          background-size: contain;
+          background-size: auto;
           background-repeat: no-repeat;
+          background-position: -15%;
         }
         .contactme i {
           margin-top: 20px;
@@ -143,7 +200,19 @@
         }
 
         /* End Contact me Section */
-        /* End Icons Section After Header */
+        /* Start Footer section */
+        .myfooter {
+          background-color: #c0cadb;
+        }
+        .goingup {
+          font-size: 50px;
+          color: black;
+          margin-left: 50%;
+          position: relative;
+          top: -26px;
+        }
+
+        /* End Footer section */
       }
       /* FOR DISKTOP USE */
       @media (max-width: 768px) {
@@ -166,7 +235,9 @@
           padding: 0;
           position: absolute;
           margin-left: 25vw;
-          margin-top: 40vh;
+          margin-top: 30vh;
+          border-radius: 10px;
+          border: 1.5px solid white;
         }
         .myImg {
           display: none !important;
@@ -185,23 +256,21 @@
         .hello-div .second {
           text-align: center;
           font-size: 20px;
-          word-spacing: 0px;
-          margin-left: 30px;
         }
         .hello-div .third {
           text-align: justify;
           line-height: 30px;
           color: white;
-          margin-left: 30px;
-          margin-right: 30px;
+          margin-left: 10%;
+          margin-right: 10%;
           margin-top: 200px;
           text-align: justify;
         }
         .mail {
-          margin: 30p auto;
+          margin: 10% auto;
           align-items: flex-end;
-          margin-left: 30px;
-          margin-top: 50px;
+          margin-left: 10%;
+          margin-top: 10%;
         }
 
         .email-me {
@@ -235,22 +304,81 @@
         /* Start Icons Section After Header */
 
         .icon img {
-          width: 70px;
-          height: 70px;
-          padding: 15px;
+          width: 20%;
+          height: auto;
+          padding: 4%;
         }
         .imgcontainer {
           display: flex;
           width: 100%;
           justify-content: space-evenly;
         }
+        /* Start About me Section */
+        .aboutimg {
+          max-width: 70vw;
+          height: auto;
+          margin-left: 15%;
+
+          margin-bottom: 2vh;
+          border-radius: 10px;
+          border: 1.5px solid white;
+        }
+        .aboutpara {
+          text-align: justify;
+          margin: 10%;
+        }
+        /* Start Skills Section */
+        .myskills {
+          background-color: rgb(108, 212, 221);
+          height: 100vh;
+        }
+        .myskills i {
+          margin: 23px 0px 0px 30px;
+        }
+        .one a {
+          color: rgb(76, 76, 255);
+        }
+        .two a {
+          margin-left: 4.4%;
+          color: rgb(255, 255, 167);
+        }
+        .three a {
+          margin-left: 8.8%;
+          color: rgb(13, 255, 0);
+        }
+        .four a {
+          margin-left: 13.2%;
+          color: rgb(0, 255, 251);
+        }
+        .five a {
+          margin-left: 17.6%;
+          color: rgb(0, 110, 255);
+        }
+        .six a {
+          margin-left: 22%;
+          color: rgb(255, 0, 153);
+        }
+        .seven a {
+          margin-left: 26.4%;
+          color: rgb(255, 0, 43);
+        }
+        .eight a {
+          margin-left: 30.8%;
+          color: rgb(58, 143, 64);
+        }
+        .nine a {
+          margin-left: 30.8%;
+          color: yellow;
+        }
+        /* End Skills Section  */
         /* Start Contact me Section */
         .contactme ul {
           list-style: none;
           font-size: 25px;
           background-image: url('/img/contactmeimg.svg');
-          background-size: contain;
+          background-size: auto;
           background-repeat: no-repeat;
+          background-position: -15%;
         }
         .contactme i {
           margin-top: 20px;
@@ -269,7 +397,19 @@
         }
 
         /* End Contact me Section */
-        /* End Icons Section After Header */
+        /* Start Footer section */
+        .myfooter {
+          background-color: #c0cadb;
+        }
+        .goingup {
+          font-size: 50px;
+          color: black;
+          margin-left: 50%;
+          position: relative;
+          top: -26px;
+        }
+
+        /* End Footer section */
       }
     </style>
   </head>
@@ -371,7 +511,7 @@
     <!-- ------------------------ -->
     <!-- Start Icons Section After Header -->
     <div class="mycontainer">
-      <div class="imgcontainer icon py-2">
+      <div class="icon imgcontainer py-2">
         <img src="img/img_flutter.png" alt="flutter" title="flutter" />
         <img src="img/img_html.png" alt="html" title="html 5" />
         <img src="img/img_css.png" alt="css" title="Css" />
@@ -538,7 +678,10 @@
     <section class="myfooter mycontainer">
       <a href="#navBar"><i class="goingup fas fa-arrow-circle-up"></i></a>
       <div class="row text-center text-dark pt-4">
-        <p>Created by: Mohammed Ba Khadher &copy; 2022 .</p>
+        <p>
+          <strong>Created by:</strong>
+          Mohammed Ba Khadher &copy; 2022 .
+        </p>
       </div>
     </section>
     <!-- End Footer section -->
