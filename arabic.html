@@ -14,9 +14,18 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
     />
-    <link rel="stylesheet" href="css/arabic.css" />
+    <!-- <link rel="stylesheet" href="css/arabic.css" /> -->
     <link rel="stylesheet" href="css/normalize.css" />
     <style>
+      * {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0 0;
+        background-color: black;
+      }
       @media (min-width: 769px) /* big Screen Rules*/ {
         .header {
           background-color: #2d3540;
@@ -43,16 +52,22 @@
         }
         .hello-div .first {
           font-size: 60px;
+          width: 50%;
+          direction: rtl;
         }
         .hello-div .second {
           font-size: 50px;
           word-spacing: 0px;
+          width: 50%;
+          direction: rtl;
         }
         .hello-div .third {
           width: 400px;
           text-align: justify;
           line-height: 30px;
           color: rgba(255, 255, 255, 0.561);
+          width: 50%;
+          direction: rtl;
         }
 
         h1 {
@@ -224,7 +239,10 @@
         alt="my img"
       />
 
-      <nav id="navBar" class="navbar navbar-expand-lg bg-transparent">
+      <nav
+        id="navBar"
+        class="navbar navbar-expand-lg bg-transparent d-flex flex-row-reverse"
+      >
         <a class="navbar-brand text-white" href="">
           <img
             src="img/coffee1.gif"
@@ -243,32 +261,37 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mx-auto text-white fw-bold">
+        <div
+          class="collapse navbar-collapse d-flex flex-row-reverse"
+          id="navbarSupportedContent"
+        >
+          <ul
+            class="navbar-nav mx-auto text-white fw-bold d-flex flex-row-reverse"
+          >
             <li class="nav-item mx-lg-5">
-              <a href="#navBar" class="nav-link text-white">Home</a>
+              <a href="#navBar" class="nav-link text-white">الرئيسية</a>
             </li>
             <li class="nav-item mx-lg-5">
-              <a href="#about" class="nav-link text-white">About</a>
+              <a href="#about" class="nav-link text-white">عنّي</a>
             </li>
             <li class="nav-item mx-lg-5">
-              <a href="" class="nav-link text-white">Resume</a>
+              <a href="" class="nav-link text-white">سيرتي</a>
             </li>
             <li class="nav-item mx-lg-5">
-              <a href="#contactme" class="nav-link text-white">Contact</a>
+              <a href="#contactme" class="nav-link text-white">التواصل</a>
             </li>
             <li class="nav-item mx-lg-5">
-              <a href="" class="nav-link text-white">عربي</a>
+              <a href="" class="nav-link text-white">English</a>
             </li>
           </ul>
         </div>
       </nav>
       <div class="hello-div">
-        <h1 class="first text-white">Hello!</h1>
+        <h1 class="first text-white">!مرحبا</h1>
         <h1 class="second text-white">
-          I'M
+          انا
           <br />
-          MOHAMMED BA KHADHER
+          محمد عبداللّه بخضر
         </h1>
         <p class="third">
           I am

@@ -52,6 +52,7 @@ body {
     font-size: 30px;
     text-align: center;
     margin: 0;
+    direction: rtl !important;
   }
   .hello-div .second {
     font-size: 20px;
